@@ -22,7 +22,7 @@ class ViewController: UIViewController {
     }
 
     @IBAction func pressThisAction(_ sender: Any) {
-        
+        myLabel.textColor = UIColor.red
     }
     
 }
