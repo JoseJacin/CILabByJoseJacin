@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DF7FE4771FA7C4C100B3FBFD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7FE4761FA7C4C100B3FBFD /* AppDelegate.swift */; };
+		DF7FE4791FA7C4C100B3FBFD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7FE4781FA7C4C100B3FBFD /* ViewController.swift */; };
+		DF7FE47C1FA7C4C100B3FBFD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF7FE47A1FA7C4C100B3FBFD /* Main.storyboard */; };
+		DF7FE47E1FA7C4C100B3FBFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF7FE47D1FA7C4C100B3FBFD /* Assets.xcassets */; };
+		DF7FE4811FA7C4C100B3FBFD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF7FE47F1FA7C4C100B3FBFD /* LaunchScreen.storyboard */; };
+		DF7FE48C1FA7C4C100B3FBFD /* CILabByJoseJacinTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7FE48B1FA7C4C100B3FBFD /* CILabByJoseJacinTests.swift */; };
+		DF7FE4971FA7C4C100B3FBFD /* CILabByJoseJacinUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7FE4961FA7C4C100B3FBFD /* CILabByJoseJacinUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DF7FE4881FA7C4C100B3FBFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF7FE46B1FA7C4C100B3FBFD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF7FE4721FA7C4C100B3FBFD;
+			remoteInfo = CILabByJoseJacin;
+		};
+		DF7FE4931FA7C4C100B3FBFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF7FE46B1FA7C4C100B3FBFD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF7FE4721FA7C4C100B3FBFD;
+			remoteInfo = CILabByJoseJacin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DF7FE4731FA7C4C100B3FBFD /* CILabByJoseJacin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CILabByJoseJacin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF7FE4761FA7C4C100B3FBFD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DF7FE4781FA7C4C100B3FBFD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DF7FE47B1FA7C4C100B3FBFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DF7FE47D1FA7C4C100B3FBFD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DF7FE4801FA7C4C100B3FBFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DF7FE4821FA7C4C100B3FBFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF7FE4871FA7C4C100B3FBFD /* CILabByJoseJacinTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CILabByJoseJacinTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF7FE48B1FA7C4C100B3FBFD /* CILabByJoseJacinTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CILabByJoseJacinTests.swift; sourceTree = "<group>"; };
+		DF7FE48D1FA7C4C100B3FBFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF7FE4921FA7C4C100B3FBFD /* CILabByJoseJacinUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CILabByJoseJacinUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF7FE4961FA7C4C100B3FBFD /* CILabByJoseJacinUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CILabByJoseJacinUITests.swift; sourceTree = "<group>"; };
+		DF7FE4981FA7C4C100B3FBFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DF7FE4701FA7C4C100B3FBFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF7FE4841FA7C4C100B3FBFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF7FE48F1FA7C4C100B3FBFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DF7FE46A1FA7C4C100B3FBFD = {
+			isa = PBXGroup;
+			children = (
+				DF7FE4751FA7C4C100B3FBFD /* CILabByJoseJacin */,
+				DF7FE48A1FA7C4C100B3FBFD /* CILabByJoseJacinTests */,
+				DF7FE4951FA7C4C100B3FBFD /* CILabByJoseJacinUITests */,
+				DF7FE4741FA7C4C100B3FBFD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DF7FE4741FA7C4C100B3FBFD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF7FE4731FA7C4C100B3FBFD /* CILabByJoseJacin.app */,
+				DF7FE4871FA7C4C100B3FBFD /* CILabByJoseJacinTests.xctest */,
+				DF7FE4921FA7C4C100B3FBFD /* CILabByJoseJacinUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF7FE4751FA7C4C100B3FBFD /* CILabByJoseJacin */ = {
+			isa = PBXGroup;
+			children = (
+				DF7FE4761FA7C4C100B3FBFD /* AppDelegate.swift */,
+				DF7FE4781FA7C4C100B3FBFD /* ViewController.swift */,
+				DF7FE47A1FA7C4C100B3FBFD /* Main.storyboard */,
+				DF7FE47D1FA7C4C100B3FBFD /* Assets.xcassets */,
+				DF7FE47F1FA7C4C100B3FBFD /* LaunchScreen.storyboard */,
+				DF7FE4821FA7C4C100B3FBFD /* Info.plist */,
+			);
+			path = CILabByJoseJacin;
+			sourceTree = "<group>";
+		};
+		DF7FE48A1FA7C4C100B3FBFD /* CILabByJoseJacinTests */ = {
+			isa = PBXGroup;
+			children = (
+				DF7FE48B1FA7C4C100B3FBFD /* CILabByJoseJacinTests.swift */,
+				DF7FE48D1FA7C4C100B3FBFD /* Info.plist */,
+			);
+			path = CILabByJoseJacinTests;
+			sourceTree = "<group>";
+		};
+		DF7FE4951FA7C4C100B3FBFD /* CILabByJoseJacinUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DF7FE4961FA7C4C100B3FBFD /* CILabByJoseJacinUITests.swift */,
+				DF7FE4981FA7C4C100B3FBFD /* Info.plist */,
+			);
+			path = CILabByJoseJacinUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DF7FE4721FA7C4C100B3FBFD /* CILabByJoseJacin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF7FE49B1FA7C4C100B3FBFD /* Build configuration list for PBXNativeTarget "CILabByJoseJacin" */;
+			buildPhases = (
+				DF7FE46F1FA7C4C100B3FBFD /* Sources */,
+				DF7FE4701FA7C4C100B3FBFD /* Frameworks */,
+				DF7FE4711FA7C4C100B3FBFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CILabByJoseJacin;
+			productName = CILabByJoseJacin;
+			productReference = DF7FE4731FA7C4C100B3FBFD /* CILabByJoseJacin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DF7FE4861FA7C4C100B3FBFD /* CILabByJoseJacinTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF7FE49E1FA7C4C100B3FBFD /* Build configuration list for PBXNativeTarget "CILabByJoseJacinTests" */;
+			buildPhases = (
+				DF7FE4831FA7C4C100B3FBFD /* Sources */,
+				DF7FE4841FA7C4C100B3FBFD /* Frameworks */,
+				DF7FE4851FA7C4C100B3FBFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF7FE4891FA7C4C100B3FBFD /* PBXTargetDependency */,
+			);
+			name = CILabByJoseJacinTests;
+			productName = CILabByJoseJacinTests;
+			productReference = DF7FE4871FA7C4C100B3FBFD /* CILabByJoseJacinTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DF7FE4911FA7C4C100B3FBFD /* CILabByJoseJacinUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF7FE4A11FA7C4C100B3FBFD /* Build configuration list for PBXNativeTarget "CILabByJoseJacinUITests" */;
+			buildPhases = (
+				DF7FE48E1FA7C4C100B3FBFD /* Sources */,
+				DF7FE48F1FA7C4C100B3FBFD /* Frameworks */,
+				DF7FE4901FA7C4C100B3FBFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF7FE4941FA7C4C100B3FBFD /* PBXTargetDependency */,
+			);
+			name = CILabByJoseJacinUITests;
+			productName = CILabByJoseJacinUITests;
+			productReference = DF7FE4921FA7C4C100B3FBFD /* CILabByJoseJacinUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DF7FE46B1FA7C4C100B3FBFD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Jose Sanchez Rodriguez";
+				TargetAttributes = {
+					DF7FE4721FA7C4C100B3FBFD = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+					DF7FE4861FA7C4C100B3FBFD = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DF7FE4721FA7C4C100B3FBFD;
+					};
+					DF7FE4911FA7C4C100B3FBFD = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DF7FE4721FA7C4C100B3FBFD;
+					};
+				};
+			};
+			buildConfigurationList = DF7FE46E1FA7C4C100B3FBFD /* Build configuration list for PBXProject "CILabByJoseJacin" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DF7FE46A1FA7C4C100B3FBFD;
+			productRefGroup = DF7FE4741FA7C4C100B3FBFD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF7FE4721FA7C4C100B3FBFD /* CILabByJoseJacin */,
+				DF7FE4861FA7C4C100B3FBFD /* CILabByJoseJacinTests */,
+				DF7FE4911FA7C4C100B3FBFD /* CILabByJoseJacinUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DF7FE4711FA7C4C100B3FBFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF7FE4811FA7C4C100B3FBFD /* LaunchScreen.storyboard in Resources */,
+				DF7FE47E1FA7C4C100B3FBFD /* Assets.xcassets in Resources */,
+				DF7FE47C1FA7C4C100B3FBFD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF7FE4851FA7C4C100B3FBFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF7FE4901FA7C4C100B3FBFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF7FE46F1FA7C4C100B3FBFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF7FE4791FA7C4C100B3FBFD /* ViewController.swift in Sources */,
+				DF7FE4771FA7C4C100B3FBFD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF7FE4831FA7C4C100B3FBFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF7FE48C1FA7C4C100B3FBFD /* CILabByJoseJacinTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF7FE48E1FA7C4C100B3FBFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF7FE4971FA7C4C100B3FBFD /* CILabByJoseJacinUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DF7FE4891FA7C4C100B3FBFD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF7FE4721FA7C4C100B3FBFD /* CILabByJoseJacin */;
+			targetProxy = DF7FE4881FA7C4C100B3FBFD /* PBXContainerItemProxy */;
+		};
+		DF7FE4941FA7C4C100B3FBFD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF7FE4721FA7C4C100B3FBFD /* CILabByJoseJacin */;
+			targetProxy = DF7FE4931FA7C4C100B3FBFD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DF7FE47A1FA7C4C100B3FBFD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF7FE47B1FA7C4C100B3FBFD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DF7FE47F1FA7C4C100B3FBFD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF7FE4801FA7C4C100B3FBFD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DF7FE4991FA7C4C100B3FBFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DF7FE49A1FA7C4C100B3FBFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DF7FE49C1FA7C4C100B3FBFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CILabByJoseJacin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JoseJacin.CILabByJoseJacin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DF7FE49D1FA7C4C100B3FBFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CILabByJoseJacin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JoseJacin.CILabByJoseJacin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DF7FE49F1FA7C4C100B3FBFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CILabByJoseJacinTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JoseJacin.CILabByJoseJacinTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CILabByJoseJacin.app/CILabByJoseJacin";
+			};
+			name = Debug;
+		};
+		DF7FE4A01FA7C4C100B3FBFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CILabByJoseJacinTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JoseJacin.CILabByJoseJacinTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CILabByJoseJacin.app/CILabByJoseJacin";
+			};
+			name = Release;
+		};
+		DF7FE4A21FA7C4C100B3FBFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CILabByJoseJacinUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JoseJacin.CILabByJoseJacinUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CILabByJoseJacin;
+			};
+			name = Debug;
+		};
+		DF7FE4A31FA7C4C100B3FBFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CILabByJoseJacinUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JoseJacin.CILabByJoseJacinUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CILabByJoseJacin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DF7FE46E1FA7C4C100B3FBFD /* Build configuration list for PBXProject "CILabByJoseJacin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF7FE4991FA7C4C100B3FBFD /* Debug */,
+				DF7FE49A1FA7C4C100B3FBFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF7FE49B1FA7C4C100B3FBFD /* Build configuration list for PBXNativeTarget "CILabByJoseJacin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF7FE49C1FA7C4C100B3FBFD /* Debug */,
+				DF7FE49D1FA7C4C100B3FBFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF7FE49E1FA7C4C100B3FBFD /* Build configuration list for PBXNativeTarget "CILabByJoseJacinTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF7FE49F1FA7C4C100B3FBFD /* Debug */,
+				DF7FE4A01FA7C4C100B3FBFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF7FE4A11FA7C4C100B3FBFD /* Build configuration list for PBXNativeTarget "CILabByJoseJacinUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF7FE4A21FA7C4C100B3FBFD /* Debug */,
+				DF7FE4A31FA7C4C100B3FBFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DF7FE46B1FA7C4C100B3FBFD /* Project object */;
+}
